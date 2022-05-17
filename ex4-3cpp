@@ -1,0 +1,9 @@
+#圓的面積和周長
+r=int(input("Please enter the circle radius:"))
+a=r**2
+b=r*2
+if(r>-1):
+    print("The area of your circle is",a)
+    print("Your diameter is",b)
+else:
+    print("Cannot enter a number less than zero")
