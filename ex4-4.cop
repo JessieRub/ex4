@@ -1,0 +1,6 @@
+#閏年判斷
+y=int(input("Please enter a year"))
+if(y%4==0):
+    print("This year is a leap year")
+else:
+    print("This year isnot a leap year")
